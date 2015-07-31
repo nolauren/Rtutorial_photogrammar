@@ -172,6 +172,7 @@ Another type of plot is a line chart, which is useful for data spread over time.
 > date = z$year + (z$month - 1) / 12 
 > plot(table(date), type ="l") 
 ```
+![](https://github.com/nolauren/Rtutorial_photogrammar/blob/master/images/BasicPlots2.png)
 
 Does this change any of our conclusions from before? Do you find this easier or harder to look at or think about than the tables we had before? 
 We can easily start creating complex plots. Here is the code and output to overlay photographs depicting migrants over our previous map: 
@@ -184,7 +185,7 @@ We can easily start creating complex plots. Here is the code and output to overl
 > points(z$longitude[index], z$latitude[index], pch=19, 
 + cex=0.8, col="salmon") 
 ```
-
+![](https://github.com/nolauren/Rtutorial_photogrammar/blob/master/images/BasicPlots3.png)
 
 What do you find surprising or unsurprising about this photograph? What are some locations with clusters of immigrant photographs? Are there any photographs you would like to try to look at now? 
 
@@ -200,7 +201,11 @@ That's it! Now we can produce a plot of Connecticut and overlay a dot plot of ph
 > map('county','connecticut') 
 > points(z$longitude , z$latitude , pch =19, cex =0.3) 
 ```
+![](https://github.com/nolauren/Rtutorial_photogrammar/blob/master/images/PackageMaps1.png)
+
 This is a fairly simple example, but how could this functionality help us analyse other plots we have previously looked at? How about this revised plot of the migrant photographs: 
+
+![](https://github.com/nolauren/Rtutorial_photogrammar/blob/master/images/PackageMaps2.png)
 
 How would you describe this plot compared to the other? Does it have additional information, or is it just the same information in a better format? Do you think of the difference as just aesthetic? How might this change depending on the audience which you were producing this plot for? 
 
