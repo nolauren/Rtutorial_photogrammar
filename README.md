@@ -164,6 +164,8 @@ Tables are great for simple data analysis, but plots and graphs often give a bet
 > plot(z$longitude , z$latitude , pch =19, cex =0.3) 
 ```
 
+![](https://github.com/nolauren/Rtutorial_photogrammar/blob/master/images/BasicPlots1.png)
+
 It isn't particularly pretty yet, but it gives us a general sense of the distribution of photographs. How does the plot alter thoughts we had after looking at the tables? 
 Another type of plot is a line chart, which is useful for data spread over time. Here we create a new date variable (it is the date in decimal form, so April of 1935 becomes 1935.25) and plot a table of it: 
 ```{r}
