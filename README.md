@@ -162,7 +162,7 @@ And a similar table giving the percentage of photographs in Texas and Oklahoma (
 
 How do these tables help us think about the geographic and temporal distribution of the collection? What might be a better way to represent this data? 
 
-###5 Basic Plots 
+### Basic Plots 
 Tables are great for simple data analysis, but plots and graphs often give a better overall picture; this is particularly true of spatial data. Here is a dot plot of all of the photographs in the collection: 
 
 ```{r}
