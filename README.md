@@ -125,6 +125,10 @@ Statistics and computing often emphasises looking at data in aggregate. However 
 1175        0     0     0     1 http://hdl.loc.gov/loc.pnp/fsa.8a00703
 
 ```
+
+We can use the urls to look at the actual photographs and begin to think about them from at an
+individual level. This is the photo corresponding to the second row above:
+
 ![](http://cdn.loc.gov/service/pnp/fsa/8c52000/8c52900/8c52905r.jpg)
 
 How can the approach we have taken to getting to this photograph help us appreciate the subject matter? How would we have found this photograph otherwise? 
