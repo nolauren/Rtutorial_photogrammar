@@ -6,11 +6,11 @@ An introduction to R using data from Photogrammar
 Digital Humanities has recently become a popular topic in the humanities. Fields such as literature, history, and American studies have dedicated sections, journal issues, and entire conferences focused on the intersection of data, computing, and the humanities. The goal of this workshop is to begin to move from thinking about digital humanities in the abstract towards actually using data and computing to solve (and ask!) humanist questions. 
 To this end, we are going use some statistical software to explore a dataset we have been working on that was collected online via the Library of Congress. The focus will be on the kinds of problems and solutions that data and computing can answer, rather than giving a thorough background on the underlying programming techniques. If there is interest, we would be happy to follow up with a more technical workshop. 
 
-### 1 Installing R on your machine 
+### Installing R on your machine 
 Today we are going to work with the R programming language, an open source tool for graphics, statistics, and scientific computing. It is often available on university computer clusters. You can download R for Linux, Mac, or Windows at http://cran.r-project.org/. Commands should be platform independent, though the look of R differs slightly depending on your operating system. 
 Another free tool to consider using is R Studio, which provides a very nice front end to the under-stated standard R program; it can be downloaded at http://rstudio.org. There are also thousands of free packages for R, one of which we will explore at the end of this workshop. 
 
-###2 Reading in the Dataset 
+### Reading in the Dataset 
 The dataset we are going to look at today consists of metadata records from the FSA-OWI photographic archive located at the Library of Congress. We are dealing with a sizeable amount of data, but only a subset of all of the variables that are available. The dataset is available in the GitHub repository. 
 The file extension stands for comma separated values (csv), and can be read by Google docs, Excel/Open Office, or any standard text editor. We recommend saving it to your desktop. 
 Now, open the R program and set the working directory to the location where the dataset is stored. Typing in the 'dir()' command should show all of the contents of the working directory, including the workshop data set: 
@@ -50,7 +50,7 @@ So there are about eighty-two thousand records (here, these correspond to photog
 
 Notice that we have a few basic variables such as year, month, and city, a few tags (0 means that the tag does not apply and 1 means that it does) and the url where the data can actually be found on Library of Congress website. 
 
-###3 Basic Tables 
+### Basic Tables 
 Now we are ready to do something somewhat useful to our dataset. Let's make a table of the years in the dataset. This can be achieved by the following command (note: to access a particular column, we use the notation DATASET$VARIABLE): 
 
 ```{r}
@@ -133,7 +133,7 @@ individual level. This is the photo corresponding to the second row above:
 
 How can the approach we have taken to getting to this photograph help us appreciate the subject matter? How would we have found this photograph otherwise? 
 
-###4 More Numbers 
+### More Numbers 
 The two way table above was helpful, but can be a bit difficult to use given that the number of photographs in a given year is not constant. Instead we can have R calculate the percentage of photographs in each year with a given characteristic. Here is the proportion of farm photographs: 
 ```{r}
 > round( tapply (z$farms, z$year, mean) * 100) 
@@ -194,7 +194,7 @@ We can easily start creating complex plots. Here is the code and output to overl
 
 What do you find surprising or unsurprising about this photograph? What are some locations with clusters of immigrant photographs? Are there any photographs you would like to try to look at now? 
 
-###6 Packages & Maps 
+### Packages & Maps 
 There are literally thousands of free "packages", add on functions, which can be installed to your R program. This means that once you grasp the basic syntax of R, you will rarely need to use another program. Since the data we have been looking at today has a strong geospatial component. We will quickly look at the maps package for plotting political boundaries on plots. The following commands will install (only need to do this once) and load (need do do this every time you restart R) the *maps* package: 
 ```{r}
 > install.packages ("maps")
