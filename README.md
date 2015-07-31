@@ -126,6 +126,7 @@ Statistics and computing often emphasises looking at data in aggregate. However 
 
 ```
 ![](http://cdn.loc.gov/service/pnp/fsa/8c52000/8c52900/8c52905r.jpg)
+
 How can the approach we have taken to getting to this photograph help us appreciate the subject matter? How would we have found this photograph otherwise? 
 
 ###4 More Numbers 
