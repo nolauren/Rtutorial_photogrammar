@@ -125,7 +125,7 @@ Statistics and computing often emphasises looking at data in aggregate. However 
 1175        0     0     0     1 http://hdl.loc.gov/loc.pnp/fsa.8a00703
 
 ```
-[mstrsplit](http://hdl.loc.gov/loc.pnp/fsa.8c52905)
+![](https://github.com/nolauren/Rtutorial_photogrammar/blob/master/images/PackageMaps1.png)(http://hdl.loc.gov/loc.pnp/fsa.8c52905)
 How can the approach we have taken to getting to this photograph help us appreciate the subject matter? How would we have found this photograph otherwise? 
 
 ###4 More Numbers 
